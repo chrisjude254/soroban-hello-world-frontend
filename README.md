@@ -31,7 +31,7 @@ cd ../..
 
 ---
 
-import \* as Client from './packages/hello_world';
+import \* as Client from './packages/hello_world/src/index.ts';
 
 const contract = new Client.Client({
 ...Client.networks.testnet,
